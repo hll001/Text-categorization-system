@@ -28,6 +28,8 @@
 
 该文件与能直接运行的django项目只差一个venv环境。在新建一个django项目（最好名为Mydjango）后会自动生成要给venv环境，所以我们直接将该Mydjango的所有内容复制进入该创建好的项目中即可运行。
 
+主要的接口的代码在Mydjango/user/function中
+
 主要界面效果图如下：
 
 ![](picture/2.png)
