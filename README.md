@@ -30,11 +30,11 @@
 
 主要界面效果图如下：
 
-![](picture/3.png)
+![](picture/2.png)
 
 分类界面效果图：
 
-![](picture/2.png)
+![](picture/3.png)
 
 分类结果效果图（之一）：
 
