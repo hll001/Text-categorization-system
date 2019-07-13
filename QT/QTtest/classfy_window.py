@@ -6,7 +6,7 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-# 进入文本分类系统界面的入口文件。在该py文件中导入我们设计好的界面文件，直接在此处调用执行（老版本，建议使用该同级目录QTtest下的Function_entry入口）
+# （这是最重要的入口）进入文本分类系统界面的入口文件。在该py文件中导入我们设计好的界面文件，直接在此处调用执行（老版本，建议使用该同级目录QTtest下的Function_entry入口）
 # 几乎所有的文本分类系统的后台逻辑功能都是在此文件中实现的。
 
 
