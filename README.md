@@ -14,7 +14,7 @@
 
 界面效果图如下：
 
-![](E:\Snipaste-Data\Snipaste_2019-07-14_00-31-58.png)
+![](picture/1.png)
 
 分类结果图如下（之一）：
 
