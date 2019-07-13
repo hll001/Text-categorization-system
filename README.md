@@ -18,7 +18,7 @@
 
 分类结果图如下（之一）：
 
-![](picture/2.png)
+![](picture/4.png)
 
 ## web端
 
@@ -34,7 +34,7 @@
 
 分类界面效果图：
 
-![](picture/4.png)
+![](picture/2.png)
 
 分类结果效果图（之一）：
 
