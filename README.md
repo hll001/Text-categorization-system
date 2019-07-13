@@ -18,7 +18,7 @@
 
 分类结果图如下（之一）：
 
-![](E:\Snipaste-Data\Snipaste_2019-07-14_00-42-37.png)
+![](picture/2.png)
 
 ## web端
 
@@ -30,13 +30,13 @@
 
 主要界面效果图如下：
 
-![](E:\Snipaste-Data\Snipaste_2019-07-14_00-34-58.png)
+![](picture/3.png)
 
 分类界面效果图：
 
-![](E:\Snipaste-Data\Snipaste_2019-07-14_00-35-10.png)
+![](picture/4.png)
 
 分类结果效果图（之一）：
 
-![](E:\Snipaste-Data\Snipaste_2019-07-14_00-44-40.png)
+![](picture/5.png)
 
