@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(232,240,240);
+}
+img{
+    float: left;
+    width: 30%;
+}
+ul{
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: 0px;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+#first{
+    padding-left: 60%;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding-right: 5%;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    font-family: "Helvetica", "Arial", "serif";
+    color: black;
+    padding: 2px;
+}
+li a:hover{
+    border:1px solid black;
+    border-radius: 5px;
+}
+#content{
+    width: 100%;
+    height: 460px;
+    background-image:url(../img/bishe.png);
+    background-repeat: no-repeat;
+}
+#content p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#poneu{
+    padding-left: 50%;
+    padding-top: 8%;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+}
+#poned{
+    padding-left: 60%;
+    padding-top: 3%;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+}
+#ptwo{
+    padding-left: 50%;
+    padding-top: 3%;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+}
+#pthree{
+    font-weight: bold;
+    padding-left: 70%;
+    padding-top: 2%;
+}
+#but{
+    padding: 5px;
+    color: black;
+    background-color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#but:hover{
+    padding: 10px;
+}
+#bottom{
+    width: 100%;
+    background-color: rgb(232,240,240);
+}
+#bottom p{
+    text-align: center;
+}
+#pu{
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#pm{
+    margin-top:0px;
+    font-style: oblique;
+}
+#pb{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-style: oblique;
+}

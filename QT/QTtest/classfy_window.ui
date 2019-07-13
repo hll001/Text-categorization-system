@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>809</width>
+    <height>471</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>文本分类系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>classfy_icon.png</normaloff>classfy_icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(224, 255, 254);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>809</width>
+     <height>471</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="vertical_ttitle">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label1">
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>文本分类系统</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="picturelabel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>100</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label2">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>               推荐分类结果：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label3">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonop">
+        <property name="text">
+         <string>打开文件</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonciyun">
+        <property name="text">
+         <string>生成词云图</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtoncl">
+        <property name="text">
+         <string>分类</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(232,240,240);
+}
+img{
+    float: left;
+    width: 30%;
+}
+ul{
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: 0px;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+#first{
+    padding-left: 60%;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding-right: 5%;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    font-family: "Helvetica", "Arial", "serif";
+    color: black;
+    padding: 2px;
+}
+li a:hover{
+    border:1px solid black;
+    border-radius: 5px;
+}
+#content{
+    width: 100%;
+    height:490px;
+}
+#up{
+    width: 100%;
+    height:50px;
+    margin-top: 10px;
+}
+input{
+    width:80%;
+    height:25px;
+    margin-left: 4%
+}
+#urlbt{
+    width:10%;
+    height:30px;
+
+}
+#down{
+    width:100%;
+    height:450px;
+}
+#left{
+    width:38%;
+    margin-left: 4%;
+    margin-right:1%;
+    float: left;
+    height:450px;
+}
+#textcontent{
+    width: 100%;
+    height: 85%;
+}
+#button{
+    height: 15%;
+    width: 100%;
+}
+#button button{
+    height:45%;
+    margin-top: 5%;
+    margin-left:20%;
+}
+#button input{
+    width: 70px;
+    height:30px;
+    margin-top: 5%;
+    margin-left:20%;
+}
+#right{
+    float: left;
+    width:55%;
+    margin-right:2%;
+    height:450px;
+}
+#chart{
+    width:99%;
+    margin-right:1%;
+    margin-bottom:2%;
+    height:98%
+}
+#bottom{
+    width: 100%;
+    background-color: rgb(232,240,240);
+}
+#bottom p{
+    text-align: center;
+}
+#pu{
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#pm{
+    margin-top:0px;
+    font-style: oblique;
+}
+#pb{
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-style: oblique;
+}

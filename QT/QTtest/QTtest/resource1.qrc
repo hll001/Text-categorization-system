@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="classfy_icon">
+    <file>classfy_icon.png</file>
+  </qresource>
+</RCC>

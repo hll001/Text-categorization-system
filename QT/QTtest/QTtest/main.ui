@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>956</width>
+    <height>529</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>5000</width>
+    <height>5000</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Agency FB</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>文本分类</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/classfy_icon/classfy_icon.png</normaloff>:/classfy_icon/classfy_icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(210, 241, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>431</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>991</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>  文 本 分 类 系 统</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtoncl">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>510</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>开始分类</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>510</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>最佳分类结果：</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>510</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>120</red>
+          <green>120</green>
+          <blue>120</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Text">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>120</red>
+          <green>120</green>
+          <blue>120</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>210</red>
+          <green>241</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonop">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>510</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>打开文件</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picturelabel">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>110</y>
+      <width>512</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonciyun">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>510</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>生成词云图</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_url">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>861</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_url">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>60</y>
+      <width>104</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>链接分析</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>打开文件夹</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

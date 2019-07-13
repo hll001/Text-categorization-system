@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本分类系统</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <script src="{% static 'js/main.js'%}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'css/layer-v3.1.1/layer/layer.js'%}"></script>
+</head>
+<body>
+<section id="header">
+    <img src="{% static 'img/title.png' %}" height="100" width="487"/>
+    <ul>
+    <li id="first"><a href="index.html">首页</a></li>
+    <li><a href="resultpage.html">开始分类</a></li>
+    <li><a id="denglu" href="index.html" onclick="tips()">详情</a></li>
+    </ul>
+</section>
+<section id="content">
+    <p id="poneu">
+        简单的文本分类方法
+    </p>
+    <p id="poned">
+        高效的文本分类效率
+    </p>
+    <p id="ptwo">
+        基于朴素贝叶斯分类算法的文本分类系统
+    </p>
+    <p id="pthree">
+        <a id='but' href="resultpage.html">开始使用</a>
+    </p>
+</section>
+<footer id="bottom">
+    <p id="pu">
+        Text Classification
+    </p>
+    <p id="pm">
+        Copyright &copy; 2017 Your Company/ More Templates hll - Collect from hll
+    </p>
+    <p id="pb">
+        Made with happy By hll
+    </p>
+</footer>
+</body>
+</html>

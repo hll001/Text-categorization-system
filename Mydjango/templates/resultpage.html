@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开始分类</title>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/echarts.js' %}"></script>
+    <script src="{% static 'js/result.js' %}"></script>
+    <script src="{% static 'css/layer-v3.1.1/layer/layer.js'%}"></script>
+    <link rel="stylesheet" href="{% static 'css/result.css' %}">
+</head>
+<body>
+<section id="header">
+    <img src="{% static 'img/title.png' %}" height="100" width="487"/>
+    <ul>
+        <li id="first"><a href="index.html">首页</a></li>
+        <li><a href="resultpage.html">开始分类</a></li>
+        {# 关于这个id="denglu"由于CSS样式问题，就不进行修改了省的麻烦 。#}
+        <li><a id="denglu" href="index.html" onclick="tip()">详情</a></li>
+    </ul>
+</section>
+<div id="content">
+    <div id="up">
+        <input type="text" placeholder="输入有效的新闻链接" id="url">
+        <button id="urlbt" onclick="url()">链接分析</button>
+    </div>
+    <div id="down">
+        <div id="left">
+            <textarea id="textcontent"></textarea>
+            <div id="button">
+                <input type="file" id="files" style="display: none" onchange="fileImport();">
+                <input type="button" id="fileImport" onclick="setchange()" value="打开文件">
+                <!--<button id="openfile">打开文件</button>-->
+                <button id="classfy" onclick="api()">开始分类</button>
+            </div>
+        </div>
+        <div id="right">
+            <div id="chart"></div>
+        </div>
+    </div>
+</div>
+<footer id="bottom">
+    <p id="pu">
+        Text Classification
+    </p>
+    <p id="pm">
+        Copyright &copy; 2017 Your Company/ More Templates hll - Collect from hll
+    </p>
+    <p id="pb">
+        Made with happy By hll
+    </p>
+</footer>
+</body>
+</html>
