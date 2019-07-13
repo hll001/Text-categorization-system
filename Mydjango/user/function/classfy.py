@@ -1,3 +1,4 @@
+#文本内容分类接口
 import jieba
 import pickle  # 持久化
 from sklearn.feature_extraction.text import TfidfVectorizer  # TF_IDF向量生成类

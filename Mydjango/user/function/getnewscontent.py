@@ -1,4 +1,4 @@
-# 目前只是支持腾讯新闻，网易新闻，今日头条三个新闻网站平台，搜狐部分可以
+# 目前只是支持腾讯新闻，网易新闻，今日头条三个新闻网站平台，搜狐部分可以（新闻内容获取接口）
 from bs4 import BeautifulSoup
 import lxml
 import re
